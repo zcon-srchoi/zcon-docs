@@ -6,3 +6,14 @@ theme: minima
 baseurl: "/zcon-docs"  # repository 이름과 동일하게 설정
 url: "https://your-username.github.io"  # GitHub Pages URL
 
+# 기존 설정 밑에 네비게이션 추가
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Cloud Migration"
+    url: "/zcon-docs/cloud migration/"
+  - title: "Backup & DR"
+    url: "/zcon-docs/backup & DR/"
+  - title: "FAQ"
+    url: "/zcon-docs/faq/"
+
