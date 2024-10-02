@@ -1,19 +1,26 @@
 title: "Zcon Docs"
 description: "Documentation for Zcon Projects"
-# theme: minima
+theme: "just-the-docs"  # 테마 설정
 
-# 각 페이지의 baseurl 설정 (GitHub Pages에서 페이지 경로를 설정할 때 필요)
-baseurl: "/zcon-docs"  # repository 이름과 동일하게 설정
-url: "https://your-username.github.io"  # GitHub Pages URL
+# GitHub Pages URL 설정
+baseurl: "/zcon-docs"  # repository 이름
+url: "https://your-username.github.io"  # 사용자명에 맞게 수정
 
-# 기존 설정 밑에 네비게이션 추가
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Cloud Migration"
-    url: "/zcon-docs/cloud migration/"
-  - title: "Backup & DR"
-    url: "/zcon-docs/backup & DR/"
-  - title: "FAQ"
-    url: "/zcon-docs/faq/"
+# 사이드바 네비게이션 설정
+just_the_docs:
+  # 사이드바 계층 구조를 설정합니다.
+  nav_order: 1
+  sidebar:
+    - title: "Home"
+      url: "/"
+      nav_order: 1
+    - title: "Cloud Migration"
+      url: "/cloud migration/"
+      nav_order: 2
+    - title: "Backup & DR"
+      url: "/backup & DR/"
+      nav_order: 3
+    - title: "FAQ"
+      url: "/faq/"
+      nav_order: 4
 
