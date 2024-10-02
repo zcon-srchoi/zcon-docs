@@ -1,6 +1,6 @@
 title: "Zcon Docs"
 description: "Documentation for Zcon Projects"
-theme: minima
+# theme: minima
 
 # 각 페이지의 baseurl 설정 (GitHub Pages에서 페이지 경로를 설정할 때 필요)
 baseurl: "/zcon-docs"  # repository 이름과 동일하게 설정
